@@ -1,0 +1,93 @@
+/* Estiliza o corpo da página */
+body {
+    background-color: #1a1a2e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estiliza o contêiner do formulário */
+.form-container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #2a2a3e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Faz o conteúdo principal ocupar o espaço disponível */
+.container {
+    flex: 1;
+}
+
+/* Estiliza o botão principal */
+.btn-primary {
+    background-color: #6a0dad;
+    border-color: #6a0dad;
+}
+
+.btn-primary:hover {
+    background-color: #7b1fa2;
+    border-color: #7b1fa2;
+}
+
+/* Estiliza o contêiner dos cards */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Estiliza os cards */
+.card {
+    background-color: #2a2a3e;
+    border: 1px solid #6a0dad;
+    color: #fff;
+}
+
+.list-group-item {
+    background-color: #2a2a3e;
+    border: 1px solid #1a1a2e;
+    color: #fff;
+}
+
+/* Estiliza o cabeçalho dos cards */
+.card-header {
+    background-color: #6a0dad;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estiliza o fundo roxo */
+.bg-purple {
+    background-color: #6a0dad;
+}
+
+/* Estiliza o rodapé */
+.footer {
+    background-color: #2a2a3e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* Estiliza a linha horizontal */
+.custom-line {
+    border: none;
+    border-top: 2px solid #fff;
+    margin: 15px auto;
+    width: 80%;
+}
+
+/* Estiliza o cabeçalho com degradê */
+header {
+    background: linear-gradient(0deg, #6a0dad, #9117e7); /* Degradê roxo para azul escuro */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
